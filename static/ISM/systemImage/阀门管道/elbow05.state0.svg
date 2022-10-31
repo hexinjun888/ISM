@@ -1,0 +1,44 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 198.26 200"  width="100%" height="64px">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{fill:#3e3a39;fill-rule:evenodd;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:url(#radial-gradient);}.cls-5{clip-path:url(#clip-path-2);}.cls-6{fill:url(#linear-gradient);}.cls-7{clip-path:url(#clip-path-3);}.cls-8{fill:url(#linear-gradient-2);}</style>
+    <clipPath id="clip-path" transform="translate(-2.25 -0.14)">
+      <path class="cls-1" d="M8.23,200.12H117.5a82.92,82.92,0,0,1,82.91-82.91V7.94C94.29,7.94,8.23,94,8.23,200.12"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="-257.23" cy="395.17" r="1.4" gradientTransform="matrix(0, -174.06, -174.06, 0, 69013.6, -44548.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#484545"/>
+      <stop offset="0.17" stop-color="#484545"/>
+      <stop offset="0.52" stop-color="#4e4b4a"/>
+      <stop offset="0.61" stop-color="#888"/>
+      <stop offset="0.79" stop-color="#e5e5e6"/>
+      <stop offset="0.96" stop-color="#231815"/>
+      <stop offset="1" stop-color="#231815"/>
+    </radialGradient>
+    <clipPath id="clip-path-2" transform="translate(-2.25 -0.14)">
+      <polygon class="cls-1" points="193.2 0.82 181.73 0.82 181.73 124.31 193.2 124.31 195.33 124.31 199.72 124.31 199.72 0.82 193.2 0.81 193.2 0.82"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-260.18" y1="400.32" x2="-258.77" y2="400.32" gradientTransform="matrix(0, 92.47, 92.47, 0, -36828.45, 24046.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b2320"/>
+      <stop offset="0.24" stop-color="#9c9c9d"/>
+      <stop offset="0.51" stop-color="#f5f5f5"/>
+      <stop offset="0.72" stop-color="#9c9c9d"/>
+      <stop offset="1" stop-color="#4e4b4a"/>
+    </linearGradient>
+    <clipPath id="clip-path-3" transform="translate(-2.25 -0.14)">
+      <polygon class="cls-1" points="2.92 181.37 2.92 192.84 2.92 192.84 2.92 199.36 126.42 199.36 126.42 194.96 126.42 192.84 126.42 181.37 2.92 181.37"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-255.3" y1="398.55" x2="-253.9" y2="398.55" gradientTransform="matrix(92.47, 0, 0, -92.47, 23595.72, 37043.27)" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>拐弯弯头1</title>
+  <path class="cls-2" d="M118.13,200.12H7.58C7.58,94.18,94.46,7.3,200.41,7.3V117.85c-45,0-82.28,37.27-82.28,82.27" transform="translate(-2.25 -0.14)"/>
+  <g class="cls-3">
+    <rect class="cls-4" x="5.98" y="7.79" width="192.19" height="192.19"/>
+  </g>
+  <polygon class="cls-2" points="178.71 124.85 198.26 124.84 198.26 0 190.95 0 178.71 0 178.71 124.85"/>
+  <g class="cls-5">
+    <rect class="cls-6" x="179.48" y="0.67" width="17.99" height="123.5"/>
+  </g>
+  <polygon class="cls-2" points="124.84 180.45 124.84 200 0 200 0 192.7 0 180.45 124.84 180.45"/>
+  <g class="cls-7">
+    <rect class="cls-8" x="0.67" y="181.22" width="123.5" height="17.99"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg id="图层_1" data-name="图层 1" 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px">
+    <defs>
+        <style></style>
+    </defs>
+    <title>房子</title>
+    <path class="canChangeFill" style="fill:#586e7c;" d="M57.95,23.39v-2.7h-.13a1.31,1.31,0,0,0-.46-1.45L32.82.28a1.34,1.34,0,0,0-1.63,0l-24.55,19a1.31,1.31,0,0,0-.46,1.45H6v5h.08V56.57A7.45,7.45,0,0,0,13.48,64H24.81V45.71H39.19V64H50.6A7.45,7.45,0,0,0,58,56.57V24.4A7.36,7.36,0,0,0,57.95,23.39Z"/>
+</svg>

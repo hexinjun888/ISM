@@ -1,0 +1,8 @@
+<svg id="图层_1" data-name="图层 1" 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px">
+    <defs>
+        <style></style>
+    </defs>
+    <title>下载成功</title>
+    <path class="canChangeFill"  style="fill:#586e7c;" d="M32,0A32,32,0,1,0,64,32,32,32,0,0,0,32,0ZM50.67,23,30,39.84a2.67,2.67,0,0,1-3.32,0,3,3,0,0,1-1-.68L18.45,32a3.08,3.08,0,0,1,0-4.34h0a3.06,3.06,0,0,1,4.32,0L29,33.83l18.33-15A2.67,2.67,0,0,1,50.67,23Z"/>
+</svg>

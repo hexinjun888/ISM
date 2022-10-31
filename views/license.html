@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://www.jq22.com/demo/login-html201909032346/login.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>授权</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="all,follow">
+    <link rel="stylesheet" href="/static/license/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/license/toastr.min.css">
+    <link rel="stylesheet" href="/static/license/style.default.css" id="theme-stylesheet"><link id="new-stylesheet" rel="stylesheet">
+  </head>
+  <body style="">
+    <div class="page login-page">
+      <div class="container d-flex align-items-center">
+        <div class="form-holder has-shadow">
+          <div class="row">
+            <!-- Logo & Information Panel-->
+            <div class="col-lg-6">
+              <div class="info d-flex align-items-center">
+                <div class="content">
+                  <div class="logo">
+                    <h1 data-lang="string_AuthTitle"></h1>
+                  </div>
+                  <p data-lang="string_AuthTips"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Form Panel    -->
+            <div class="col-lg-6 bg-white">
+              <div class="form d-flex align-items-center">
+                <div class="content">
+                 
+                    <div class="form-group">
+					            <label  data-lang="string_code"></label>
+                      <input id="mac_code" type="text"  class="input-material" value=" {{.Content}}"/>
+                    </div>
+                    <div class="form-group">
+					            <label data-lang="string_AuthCode"></label>
+                      <input id="auth_code" type="text" class="input-material"/>
+                    </div>
+                    <button data-lang="string_AuthBtn" id="auth_btn" class="btn btn-primary"></button>
+                    <br/>
+                    <br/>
+                    <a style="cursor: pointer;" id="J_lang_zh" data-lang="string_AuthZH">中文</a> |  <a style="cursor: pointer;" id="J_lang_en" data-lang="string_AuthEn">英文</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript files-->
+    <script src="/static/license/jquery.min.js"></script>
+	  <script src="/static/license/bootstrap.min.js"></script>
+    <script src="/static/license/jquery.validate.min.js"></script>
+
+    <script src="/static/license/toastr.min.js"></script>
+  	<script src="/static/license/jquery.i18n.properties.min.js"></script>
+    <script>
+		var language_pack = {
+		  now_lang : 0, // 0:ch,1:en
+			loadProperties : function(new_lang){
+				var self = this;
+				var tmp_lang = '';
+				if(new_lang == 0){
+					tmp_lang = 'zh';
+					$('body').removeClass('en').addClass('zh');
+				}else{
+					tmp_lang = 'en';
+					$('body').removeClass('zh').addClass('en');
+				}
+				jQuery.i18n.properties({//加载资浏览器语言对应的资源文件
+					name: 'strings', //资源文件名称
+					path:'/static/license/language/', //资源文件路径
+					language: tmp_lang,
+					cache: false,
+					mode:'map', //用Map的方式使用资源文件中的值
+					callback: function() {//加载成功后设置显示内容
+						for(var i in $.i18n.map){
+							$('[data-lang="'+i+'"]').text($.i18n.map[i]);
+						}
+						document.title = $.i18n.map['string_title'];
+					}
+				});
+			self.now_lang = new_lang;
+		}
+	}
+
+    	$(function(){
+        language_pack.loadProperties(0);
+        
+      
+        $('#J_lang_zh').click(function(){
+          
+          language_pack.loadProperties(0);
+        });
+        $('#J_lang_en').click(function(){
+          
+          language_pack.loadProperties(1);
+        });
+
+        $('#auth_btn').click(function(){
+            var json_data = {
+              "authCode":$("#auth_code").val(),
+            }
+            toastr.options = {
+              "closeButton": false,
+              "debug": false,
+              "newestOnTop": false,
+              "progressBar": false,
+              "positionClass": "toast-top-center",
+              "preventDuplicates": false,
+              "onclick": null,
+              "showDuration": "300",
+              "hideDuration": "1000",
+              "timeOut": "5000",
+              "extendedTimeOut": "1000",
+              "showEasing": "swing",
+              "hideEasing": "linear",
+              "showMethod": "fadeIn",
+              "hideMethod": "fadeOut"
+            }
+            $.ajax({
+                type: "POST",
+                url: "/saveLicense",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(json_data),
+                dataType: "json",
+                success: function (message) {
+                  if(message.code == -3)
+                  {
+                    toastr.error($.i18n.map['string_AuthParamsError'])
+                  }
+                  else if(message.code == -4)
+                  {
+                    toastr.error($.i18n.map['string_AuthFailed'])
+                  }
+                  else if(message.code == -5)
+                  {
+                    toastr.error($.i18n.map['string_AuthWriteFailed'])
+                  }
+                  else if(message.code == -2)
+                  {
+                    toastr.error($.i18n.map['string_AuthFailed'])
+                  }
+                  else if(message.code == 0)
+                  {
+                    toastr.success($.i18n.map['string_AuthFinished'])
+                    setTimeout(function(){
+                      location.reload()
+                    },2000)
+                    
+                  }
+                },
+                error: function (message) {
+                  toastr.error($.i18n.map['string_AuthServerError'])
+                }
+            });
+        })
+    	})
+    </script>
+  
+</body></html>

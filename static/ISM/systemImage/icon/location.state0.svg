@@ -1,0 +1,8 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px">
+  <defs>
+    <style></style>
+  </defs>
+  <title>定位</title>
+  <circle class="canChangeFill" style="fill:#586e7c;" cx="32" cy="25.33" r="6.67"/>
+  <path class="canChangeFill" style="fill:#586e7c;" d="M32,0A25.33,25.33,0,0,0,6.67,25.33C6.67,39.32,29.33,64,32,64S57.33,39.32,57.33,25.33A25.33,25.33,0,0,0,32,0Zm0,40A14.67,14.67,0,1,1,46.67,25.33,14.68,14.68,0,0,1,32,40Z"/>
+</svg>

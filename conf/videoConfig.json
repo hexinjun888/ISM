@@ -1,0 +1,11 @@
+{
+    "server": {
+        "http_port": ":8083",
+        "debug": false,
+        "ice_servers": [],
+        "ice_username": "",
+        "ice_credential": "",
+        "webrtc_port_min": 50010,
+        "webrtc_port_max": 50100
+    }
+}

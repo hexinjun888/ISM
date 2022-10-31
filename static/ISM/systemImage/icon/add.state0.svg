@@ -1,0 +1,8 @@
+<svg id="图层_1" data-name="图层 1" 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px">
+    <defs>
+        <style></style>
+    </defs>
+    <title>添加</title>
+    <path class="canChangeFill"  style="fill:#586e7c;" d="M32,0A32,32,0,1,0,64,32,32,32,0,0,0,32,0ZM49.33,34.67H34.67V49.33a2.67,2.67,0,1,1-5.33,0V34.67H14.67a2.67,2.67,0,1,1,0-5.33H29.33V14.67a2.67,2.67,0,1,1,5.33,0V29.33H49.33a2.67,2.67,0,0,1,0,5.33Z"/>
+</svg>

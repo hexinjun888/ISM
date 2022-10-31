@@ -1,0 +1,9 @@
+<svg id="图层_1" data-name="图层 1" 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px">
+    <defs>
+        <style></style>
+    </defs>
+    <title>搜索</title>
+    <circle class="canChangeFill" style="fill:#586e7c;" cx="29.81" cy="25.46" r="6.7"/>
+    <path class="canChangeFill" style="fill:#586e7c;" d="M59.42,58.79,48.07,43.18a25.36,25.36,0,1,0-6.25,4.73L53.11,63.44c.68.94,2.66.66,4.4-.62h0C59.24,61.55,60.1,59.73,59.42,58.79ZM29.81,40.2A14.74,14.74,0,1,1,44.55,25.46,14.76,14.76,0,0,1,29.81,40.2Z"/>
+</svg>

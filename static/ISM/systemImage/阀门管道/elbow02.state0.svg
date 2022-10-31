@@ -1,0 +1,84 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 151.23 200"  width="100%" height="64px">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{fill:#3e3a39;fill-rule:evenodd;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:url(#linear-gradient);}.cls-5{clip-path:url(#clip-path-2);}.cls-6{fill:url(#linear-gradient-2);}.cls-7{clip-path:url(#clip-path-3);}.cls-8{fill:url(#linear-gradient-3);}.cls-9{clip-path:url(#clip-path-4);}.cls-10{fill:url(#linear-gradient-4);}.cls-11{clip-path:url(#clip-path-5);}.cls-12{fill:url(#linear-gradient-5);}.cls-13{clip-path:url(#clip-path-6);}.cls-14{fill:url(#linear-gradient-6);}.cls-15{clip-path:url(#clip-path-7);}.cls-16{fill:url(#linear-gradient-7);}</style>
+    <clipPath id="clip-path" transform="translate(-24.24 -0.29)">
+      <polygon class="cls-1" points="39.65 145.76 74.41 145.76 129.63 145.76 168.55 145.76 168.55 54.81 129.63 54.82 129.63 54.81 39.65 54.82 39.65 145.76"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-261.18" y1="396.87" x2="-260.03" y2="396.87" gradientTransform="matrix(0, 82.35, 82.35, 0, -32601.82, 21555.71)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#231815"/>
+      <stop offset="0.19" stop-color="#9e9e9f"/>
+      <stop offset="0.4" stop-color="#e8e9e9"/>
+      <stop offset="0.68" stop-color="#9e9e9f"/>
+      <stop offset="1" stop-color="#484545"/>
+    </linearGradient>
+    <clipPath id="clip-path-2" transform="translate(-24.24 -0.29)">
+      <path class="cls-1" d="M78.77,41.24V54.38a273.82,273.82,0,0,1,0,91v39.52h91V15.7h-91Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-258.18" y1="400.1" x2="-257.03" y2="400.1" gradientTransform="matrix(82.35, 0, 0, -82.35, 21310.28, 33049.47)" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-3" transform="translate(-24.24 -0.29)">
+      <polygon class="cls-1" points="24.88 150.96 28.49 150.96 30.23 150.96 39.64 150.96 39.64 49.62 30.23 49.62 30.23 49.61 24.88 49.62 24.88 150.96"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-260.84" y1="396.78" x2="-259.69" y2="396.78" gradientTransform="matrix(0, 92.47, 92.47, 0, -36681.99, 24159.58)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b2320"/>
+      <stop offset="0.24" stop-color="#9c9c9d"/>
+      <stop offset="0.51" stop-color="#f5f5f5"/>
+      <stop offset="0.72" stop-color="#9c9c9d"/>
+      <stop offset="1" stop-color="#4e4b4a"/>
+    </linearGradient>
+    <clipPath id="clip-path-4" transform="translate(-24.24 -0.29)">
+      <rect class="cls-1" x="40.5" y="113.09" width="0.14" height="5.36"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-310.12" y1="393.07" x2="-308.97" y2="393.07" gradientTransform="matrix(0, 4.86, 4.86, 0, -1893.4, 1619.13)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#565454"/>
+      <stop offset="0.19" stop-color="#999a9a"/>
+      <stop offset="0.4" stop-color="#c8c9ca"/>
+      <stop offset="0.68" stop-color="#989898"/>
+      <stop offset="1" stop-color="#6b6a6a"/>
+    </linearGradient>
+    <clipPath id="clip-path-5" transform="translate(-24.24 -0.29)">
+      <polygon class="cls-1" points="73.57 6.28 73.56 15.69 174.91 15.69 174.91 6.28 174.91 4.53 174.91 0.92 73.57 0.92 73.56 6.28 73.57 6.28"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="-258.18" y1="399.89" x2="-257.03" y2="399.89" gradientTransform="matrix(92.47, 0, 0, -92.47, 23912.82, 36984.99)" xlink:href="#linear-gradient-3"/>
+    <clipPath id="clip-path-6" transform="translate(-24.24 -0.29)">
+      <rect class="cls-1" x="106.86" y="16.55" width="5.37" height="0.14"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="-260.12" y1="451.78" x2="-258.97" y2="451.78" gradientTransform="matrix(4.86, 0, 0, -4.86, 1346.64, 2212.41)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6b6a6a"/>
+      <stop offset="0.19" stop-color="#a5a5a6"/>
+      <stop offset="0.4" stop-color="#cececf"/>
+      <stop offset="0.68" stop-color="#a3a4a4"/>
+      <stop offset="1" stop-color="#7b7b7b"/>
+    </linearGradient>
+    <clipPath id="clip-path-7" transform="translate(-24.24 -0.29)">
+      <polygon class="cls-1" points="73.57 194.29 73.56 194.29 73.57 199.65 174.91 199.65 174.91 196.04 174.91 194.29 174.91 184.88 73.56 184.88 73.57 194.29"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="-258.18" y1="399.63" x2="-257.03" y2="399.63" gradientTransform="matrix(92.47, 0, 0, -92.47, 23912.82, 37145.05)" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <title>垂直弯头2</title>
+  <path class="cls-2" d="M170.24,162.54V185.4h-92V162.54A16.3,16.3,0,0,0,62,146.29H39.13v-92H62A16.29,16.29,0,0,0,78.25,38V15.17h92V162.54Z" transform="translate(-24.24 -0.29)"/>
+  <path class="cls-2" d="M169.72,162.54v22.34h-91V162.54A16.81,16.81,0,0,0,62,145.76H39.65V54.82H62A16.81,16.81,0,0,0,78.77,38V15.7h91V162.54Z" transform="translate(-24.24 -0.29)"/>
+  <g class="cls-3">
+    <rect class="cls-4" x="15.41" y="54.53" width="128.9" height="90.95"/>
+  </g>
+  <g class="cls-5">
+    <rect class="cls-6" x="54.53" y="15.41" width="90.95" height="169.18"/>
+  </g>
+  <polygon class="cls-2" points="16.04 151.23 0 151.23 0 48.78 5.99 48.78 16.04 48.78 16.04 151.23"/>
+  <g class="cls-7">
+    <rect class="cls-8" x="0.64" y="49.33" width="14.76" height="101.35"/>
+  </g>
+  <g class="cls-9">
+    <rect class="cls-10" x="16.26" y="112.8" width="0.14" height="5.36"/>
+  </g>
+  <polygon class="cls-2" points="151.23 16.04 151.23 0 48.77 0 48.77 5.99 48.77 16.04 151.23 16.04"/>
+  <g class="cls-11">
+    <rect class="cls-12" x="49.32" y="0.64" width="101.35" height="14.76"/>
+  </g>
+  <g class="cls-13">
+    <rect class="cls-14" x="82.62" y="16.26" width="5.37" height="0.14"/>
+  </g>
+  <polygon class="cls-2" points="151.23 183.96 151.23 200 48.77 200 48.77 194.01 48.77 183.96 151.23 183.96"/>
+  <g class="cls-15">
+    <rect class="cls-16" x="49.32" y="184.6" width="101.35" height="14.77"/>
+  </g>
+</svg>
